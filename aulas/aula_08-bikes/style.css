@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.principal {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.primeira {
+    width: 25%;
+    background-color: darkolivegreen;
+    height: 150px;
+}
+
+.segunda {
+    width: 25%;
+    background-color: tomato;
+    height: 150px;
+}
+
+.terceira {
+    width: 25%;
+    background-color: slategrey;
+    height: 150px;
+}

@@ -1,0 +1,32 @@
+:root {
+    --altura: 150px
+}
+
+main {
+    display: flex;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.primeira {
+    width: 33.33%;
+    height: var(--altura);
+    background-color: darkcyan;
+    text-align: center;
+    border: 6px dashed black ;
+}
+
+.segunda {
+    width: 33.33%;
+    height: var(--altura);
+    background-color: darkkhaki;
+    text-align: center;
+    margin: 20px;
+}
+
+.terceira {
+    width: 33.33%;
+    height: var(--altura);
+    background-color: salmon;
+    text-align: center;
+}

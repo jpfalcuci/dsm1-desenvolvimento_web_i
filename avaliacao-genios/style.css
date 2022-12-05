@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-cabecalho-rodape: rgba(19, 38, 34, 1);
+    --cor-quadros: rgba(58, 89, 72, 1);
+    --cor-texto-sombra: rgba(110, 140, 109, 1);
+
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+}
+
+.cabecalho {
+    padding: 0.8rem 1.3rem;
+}
+
+.titulo__genios {
+    color: var(--cor-texto-sombra);
+    background-color: var(--cor-cabecalho-rodape);
+    border-radius: 1.5rem;
+    padding: 1rem 0;
+    margin: 0 0.2rem;
+    font-size: 1.4rem;
+    text-align: center;
+    box-shadow: 5px 5px 8px var(--cor-texto-sombra);
+}
+
+a:link {
+    text-decoration: none
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+}
+
+.quadros {
+    background-color: var(--cor-quadros);
+    display: flex;
+    justify-content: center;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    margin: 1.3rem;
+    box-shadow: 5px 5px 8px var(--cor-texto-sombra)
+}
+
+.texto__quadro {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+    color: var(--cor-texto-sombra);
+}
+
+.imagem__quadro {
+    width: 70vw;
+    padding-left: 0.4rem;
+    border-radius: 30%;
+}
+
+img {
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+img:hover {
+    opacity: 0.6;
+}
+
+.rodape {
+    padding: 0.8rem 1.3rem;
+    margin-bottom: 0.3rem;
+}
+
+.rodape__conteudo {
+    background-color: var(--cor-cabecalho-rodape);
+    color: var(--cor-texto-sombra);
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 0.5rem 0;
+    border-radius: 0.5rem;
+    box-shadow: 5px 5px 8px var(--cor-texto-sombra)
+}
+
+.destaque__rodape {
+    font-weight: bold;
+}
+
+
+@media screen and (min-width: 620px) {
+    .cabecalho {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .titulo__genios {
+        width: 60rem;
+    }
+    
+    .principal {
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .imagem__quadro {
+        width: 18vw;
+    }
+    
+    .rodape {
+        position: fixed;
+        bottom: 0;
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .rodape__conteudo {
+        margin: 0 1rem;
+        border-radius: 1.5rem;
+        width: 60rem;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    .imagem__quadro {
+        height: 50vh;
+        width: auto;
+    }
+}

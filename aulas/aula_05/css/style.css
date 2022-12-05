@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+}
+
+.conteudo {
+    background-color: brown;
+    color: white;
+    margin: 1rem;
+    text-align: justify;
+    text-indent: 2rem;
+}
+
+#cabecalho {
+    background-color: blueviolet;
+    color: white;
+    margin: 1rem;
+    text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+#destaque {
+    font-weight: bold;
+}

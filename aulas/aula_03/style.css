@@ -1,0 +1,31 @@
+body {
+    background-image: url('imagens/background-site.jpg');
+    background-position: center;
+    background-size: 100%;
+    font-family: sans-serif, serif;
+}
+
+p {
+    text-align: center;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    text-decoration: underline;
+    text-indent: 2rem;
+}
+
+h2, h3 {
+    color: #FD7C3A;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h4, h5 {
+    color: #2CFA39;
+    text-align: center;
+}
+
+.logos {
+    background-color: #ebe9d9a8;
+}

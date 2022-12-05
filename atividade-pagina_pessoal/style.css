@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-family: 'IBM Plex Mono', monospace;
+    --cor-destaque: #A69E97;
+    --cor-destaque-sombra: #a69e9744;
+    --cor-titulo: #8C837B;
+    --cor-fundo: #232226;
+    --cor-texto: #BFBEBD;
+    --cor-rodape: #73645C;
+}
+
+
+/* cabecalho */
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1.2rem;
+    font-size: 0.75rem;
+    color: var(--cor-titulo);
+    background-color: var(--cor-destaque);
+    padding: 0.5rem 0;
+}
+
+.foto__perfil {
+    width: 6rem;
+    border-radius: 100%;
+}
+
+
+/* corpo */
+
+.container {
+    color: var(--cor-texto);
+    background-color: var(--cor-fundo);
+    font-weight: 300;
+    padding: 1rem 2rem;
+    font-size: 0.75rem;
+    text-align: justify;
+    text-indent: 1.5rem;
+}
+
+@media screen and (min-width: 620px) {
+    .container {
+        padding: 1rem 6rem;
+    }
+}
+
+.paragrafo {
+    padding: 0.3rem 0;
+}
+
+.curso__dsm {
+    text-indent: 0;
+    padding: 0.5rem;
+    margin: 0.5rem auto;
+    background-color: var(--cor-destaque);
+    color: var(--cor-fundo);
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px var(--cor-destaque-sombra);
+    width: fit-content;
+
+}
+
+.lista__titulo {
+    padding-bottom: 0.5rem;
+    text-align: center;
+}
+
+.lista__itens {
+    list-style-type: "✓ ";
+    list-style-position: inside;
+    text-indent: 0.5rem;
+    text-align: left;
+}
+
+
+/* videos */
+
+.mais {
+    margin-top: 1.2rem;
+}
+
+.videos {
+    background-color: var(--cor-fundo);
+    text-align: center;
+    list-style-type: none;
+    padding-bottom: 1rem;
+    height: 100%;
+}
+
+.videos__lista {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    list-style-type: none;
+    row-gap: 1rem;
+}
+
+@media screen and (min-width: 650px) {
+    .videos__lista {
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        column-gap: 1rem;
+    }
+}
+
+
+/* rodape */
+
+.rodape {
+    text-align: center;
+    color: var(--cor-rodape);
+    background-color: var(--cor-destaque);
+    padding: 0.2rem;
+    font-size: 0.75rem;
+}
+
+.links__sociais {
+    display: flex;
+    justify-content: center;
+    column-gap: 0.9rem;
+    padding: 0.5rem;
+}
+
+.links {
+    height: 1.9rem;
+}
+
+.links:hover {
+    transform: scale(1.15, 1.15);
+}
+
+.assinatura {
+    font-size: 0.65rem;
+}

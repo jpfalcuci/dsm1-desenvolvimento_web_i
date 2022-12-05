@@ -1,0 +1,41 @@
+.quadro__conteudo {
+    flex-direction: column;
+    text-align: center;
+}
+
+.subtitulo {
+    color: var(--cor-texto-sombra)
+}
+
+.conteudo {
+    color: darkgrey;
+    text-align: justify;
+}
+
+.destaque__texto {
+    font-weight: bold;
+}
+
+img:hover {
+    opacity: 1;
+}
+
+a {
+    color: var(--cor-texto-sombra);
+    font-weight: bold;
+}
+
+@media screen and (min-width: 620px) {
+    .quadro__conteudo {
+        flex-direction: row;
+    }
+
+    .conteudo {
+        width: 30rem;
+        padding: 1rem;
+    }
+
+    .rodape {
+        position: relative;
+    }
+}
