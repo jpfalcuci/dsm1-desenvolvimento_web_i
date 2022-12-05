@@ -1,3 +1,7 @@
 # Desenvolvimento Web I
 
-Repositório dos arquivos da matéria de Desenvolvimento Web I do 1º semestre do curso de DSM (Desenvolvimento de Software Multiplataforma) da Fatec (Franca/SP)
+Curso: Desenvolvimento de Software Multiplataforma (Fatec - Franca/SP)
+
+Disciplina: Desenvolvimento Web I
+
+Período: 1º semestre (2022/2)
